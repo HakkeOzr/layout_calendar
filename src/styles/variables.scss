@@ -1,0 +1,16 @@
+$starts: (
+  mon: 0,
+  tue: 1,
+  wed: 2,
+  thu: 3,
+  fri: 4,
+  sat: 5,
+  sun: 6,
+);
+$cell-size: 100px;
+$every-day-color: #eee;
+$gap: 1px;
+$columns: 7;
+$paddings: 10px;
+$border: 1px solid #000;
+$container-width: $columns * $cell-size + ($columns - 1) * $gap + 2 * $paddings;
